@@ -1,3 +1,19 @@
+/*Many well-known cryptographic operations require modular exponentiation. That is, given integers x,
+y and n, compute xy mod n. In this question, you are tasked to program an efficient way to execute
+this calculation.
+
+Input
+The input consists of a line containing the number c of datasets, followed by c datasets, followed by a
+line containing the number ‘0’.
+Each dataset consists of a single line containing three positive integers, x, y, and n, separated by
+blanks. You can assume that 1 < x, n < 215 = 32768, and 0 < y < 231 = 2147483648.
+
+Output
+The output consists of one line for each dataset. The i-th line contains a single positive integer z such
+that
+z = xy mod n
+for the numbers x, y, z given in the i-th input dataset.*/
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
