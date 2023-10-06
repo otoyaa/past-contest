@@ -17,13 +17,13 @@ void solve(){
         if(w==0&&h==0){
             break;
         }
-        cout<<"\n"; // antes do processo de cada teste
         for(int i=1;i<=w;i++){
             for(int j=1;j<=h;j++){
                 cout<<"#";
             }
         cout<<"\n";
         }
+        cout<<'\n';
     }
 }
 
