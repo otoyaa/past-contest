@@ -16,11 +16,11 @@ void solve(){
     for(int i=1;i<=n;i++){
         int m=i;
         if(m%3==0){
-            cout<<m<<" ";             
+            cout<<" "<<i;             
         }else{
             while(m>0){
                 if(m%10==3){
-                    cout<<m<<" ";
+                    cout<<" "<<i;
                     break;
                 }
                 m/=10;
