@@ -1,2 +1,2 @@
-# mondai-kaiketsu
-ff
+# Past contests my solutions
+
