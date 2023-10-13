@@ -13,19 +13,19 @@ using namespace std;
 
 void solve(){
     while(1){
-        int m,r,f;cin>>m>>r>>f;
+        int m,f,r;cin>>m>>f>>r;
         if(m==-1&&r==-1&&f==-1){
             break;
         }
         if(m==-1||f==-1){
             cout<<"F"<<"\n";
-        }else if(m+r>=80){
+        }else if(m+f>=80){
             cout<<"A"<<"\n";
-        }else if(m+r>=65){
+        }else if(m+f>=65){
             cout<<"B"<<"\n";
-        }else if(m+r>=50){
+        }else if(m+f>=50){
             cout<<"C"<<"\n";
-        }else if(m+r>=30){
+        }else if(m+f>=30){
             if(r>=50){
                 cout<<"C"<<"\n";
             }else{
