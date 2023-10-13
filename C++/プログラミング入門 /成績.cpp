@@ -13,11 +13,11 @@ using namespace std;
 
 void solve(){
     while(1){
-        int m,r,f;cin>>a>>b>>c;
+        int m,r,f;cin>>m>>r>>f;
         if(m==-1&&r==-1&&f==-1){
             break;
         }
-        if(m==-1||r==-1){
+        if(m==-1||f==-1){
             cout<<"F"<<"\n";
         }else if(m+r>=80){
             cout<<"A"<<"\n";
