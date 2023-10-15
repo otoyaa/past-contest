@@ -15,7 +15,7 @@ void solve(){
     int n,m,l;cin>>n>>m>>l;
     vector<vector<int>> A(n,vector<int> (m)); // matriz a n*m
     vector<vector<int>> B(m,vector<int> (l)); // matriz b m*l
-    vector<vector<int>> C(n,vector<int> (l,0)); // matriz resposta
+    vector<vector<ll>> C(n,vector<ll> (l,0)); // matriz resposta
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){ // nada demais apenas lendo os valores de A
             cin>>A[i][j];
@@ -35,9 +35,8 @@ void solve(){
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<l;j++){
-            cout<<C[i][j]<<" ";
+            cout<<C[i][j]<<(j==l-1?"\n":" ");
         }
-        cout<<"\n";
     }
 }
 
